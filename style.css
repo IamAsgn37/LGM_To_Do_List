@@ -1,0 +1,70 @@
+body{
+    background: url("1.webp") no-repeat;
+}
+.container{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    width: 500;
+    height: 450;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(19, 18, 18, 0.904);
+}
+.right{
+    margin-right: 470px;
+}
+h1{
+    margin: 20px 0;
+    color:rgb(218, 32, 203);
+}
+#bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    color: rgb(114, 15, 101);
+    font-style: bold;
+}
+.add-elements{
+    margin: 20px 0;
+}
+input{
+    padding: 8px 16px;
+    width: 70%;
+}
+button{
+    padding: 10px 25px;
+    background-color: rgb(99, 41, 233);
+    border: none;
+    border-radius: 6px;
+    color: whitesmoke;
+}
+ul{
+    padding: 12px;
+}
+li{
+    list-style: none;
+    border-radius: 5px;
+    padding: 12px 6px;
+    color: white;
+    background-color: rgb(204, 58, 58);
+    margin: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    transition: 4ms;
+}
+button:hover{
+    background-color: rgb(57, 180, 236);
+}
+li:hover{
+    background-color: rgb(172, 164, 171);
+}
+.element-list{
+    height: 300px;
+    overflow-y:scroll;
+}
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(61, 119, 76);
+}
