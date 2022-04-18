@@ -1,5 +1,5 @@
 body{
-    background: url("1.webp") no-repeat;
+    background: url("1.webp") no-repeat;  /* Background Picture*/
 }
 .container{
     position: absolute;
@@ -7,24 +7,29 @@ body{
     top: 50%;
     width: 500;
     height: 450;
-    transform: translate(-50%,-50%);
+    transform: translate(-150%,-30%);
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Nunito',sans-serif;
     box-shadow: 0 2px 8px rgba(19, 18, 18, 0.904);
 }
 .right{
     margin-right: 470px;
 }
 h1{
-    margin: 20px 0;
-    color:rgb(218, 32, 203);
+    margin: 0px 0;
+    color:whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    padding: 2rem;
+  background-color: #ccc;
+  background-image: linear-gradient( 135deg, #79F1A4 8%, #0E5CAD 100%, rgba(89, 144, 173, 0.374) 20%);
 }
 #bottom{
     position: absolute;
     bottom: 0;
     right: 0;
     font-size: 20px;
-    color: rgb(114, 15, 101);
+    color: rgb(222, 52, 52);
+    background-color: silver;
     font-style: bold;
 }
 .add-elements{
@@ -35,7 +40,7 @@ input{
     width: 70%;
 }
 button{
-    padding: 10px 25px;
+    padding: 10px 25px;                                                                 
     background-color: rgb(99, 41, 233);
     border: none;
     border-radius: 6px;
@@ -49,22 +54,17 @@ li{
     border-radius: 5px;
     padding: 12px 6px;
     color: white;
-    background-color: rgb(204, 58, 58);
     margin: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    box-shadow: 0 2px 8px rgba(0,030,.16);
+    color:gold;
+    font-size: 40px;
     transition: 4ms;
 }
-button:hover{
-    background-color: rgb(57, 180, 236);
-}
-li:hover{
-    background-color: rgb(172, 164, 171);
-}
 .element-list{
-    height: 300px;
+    height: 250px;
     overflow-y:scroll;
 }
 .checked{
-    text-decoration: line-through;
-    background-color: rgb(61, 119, 76);
+    font-size: 30px;
+    color:green;
 }
